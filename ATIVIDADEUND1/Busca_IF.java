@@ -2,14 +2,14 @@ package ATIVIDADEUND1;
 
 public interface Busca_IF {
 
-    boolean checaVetorOrdenado(Filme[] filmes);
+    boolean checaVetorOrdenade(Filme[] filmes);
 
-    Filme buscaLinear_iterativa(Filme[] filmes, int nota) throws Exception;
+    Filme buscaLinear_iterativar(Filme[] filmes, int nota) throws Exception;
 
-    Filme buscaLinear_recursiva(Filme[] filmes, int nota) throws Exception;
+    Filme buscaLinear_recursivar(Filme[] filmes, int nota) throws Exception;
 
-    Filme buscaBinaria_iterativa(Filme[] filmes, int nota) throws Exception;
+    Filme buscaBinaria_iterativar(Filme[] filmes, int nota) throws Exception;
 
-    Filme buscaBinaria_recursiva(Filme[] filmes, int nota) throws Exception;
+    Filme buscaBinaria_recursivar(Filme[] filmes, int nota) throws Exception;
 
 }

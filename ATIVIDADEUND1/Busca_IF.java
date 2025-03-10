@@ -12,4 +12,6 @@ public interface Busca_IF {
 
     Filme buscaBinaria_recursivar(Filme[] filmes, int nota) throws Exception;
 
+    void busca();
+
 }

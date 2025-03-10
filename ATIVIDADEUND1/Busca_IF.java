@@ -14,4 +14,6 @@ public interface Busca_IF {
 
     void busca();
 
+    void l();
+
 }
